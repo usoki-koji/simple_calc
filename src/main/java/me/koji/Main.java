@@ -48,6 +48,8 @@ public class Main {
                 scanner.nextLine();
             } catch (final InputMismatchException exception) {
                 System.out.println("The input isn't a valid number, please try again.");
+
+                scanner.nextLine();
             } catch (final IllegalArgumentException exception) {
                 System.out.println("Invalid actions, make sure you selected one of the available actions.");
             } catch (final NoSuchElementException exception) {
